@@ -10,7 +10,7 @@ func TestGetAPIKey(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := "1234"
+	want := "123"
 	if got != want {
 		t.Fatalf("got %q, want %q", got, want)
 	}
